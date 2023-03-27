@@ -1,0 +1,38 @@
+
+item
+  id
+  itemName:
+  serialNumber
+  price:
+
+
+salesPerson:
+  id
+  salesPersonId:
+  getSalesHistory()
+
+
+transaction:
+  id
+  customer: customer
+  salesPerson: salesPerson:
+  cashPayment: Cash
+  creditPayment: Credit
+  checkPayment: Check
+  order: Order
+
+  calculatePayment()
+
+Cash
+  cashAmtPaid: Double
+
+Credit:
+  creditAmitPaid: Double
+
+Check
+  checkAmtPaid: Double
+
+Payment
+  amountDue: int
+  calculateAmtDue()
+
